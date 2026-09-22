@@ -23,5 +23,3 @@ reporte/*.run.xml
 reporte/*.synctex.gz
 reporte/*.toc
 
-# PDF generado del reporte; se conserva el código .tex y sus figuras
-reporte/reporte_tarea_1.pdf
