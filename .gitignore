@@ -1,25 +1,31 @@
 # Archivos creados por macOS
 .DS_Store
+**/.DS_Store
 
 # Archivos de configuración de editores e IDE
 .idea/
+**/.idea/
 .vscode/
+**/.vscode/
 
-# Archivos generados al compilar el programa Rust
-algoritmos/target/
+# Archivos generados al compilar proyectos Rust
+target/
+**/target/
 
 # Archivos temporales y auxiliares generados por LaTeX
-reporte/*.aux
-reporte/*.bbl
-reporte/*.bcf
-reporte/*.blg
-reporte/*.fdb_latexmk
-reporte/*.fls
-reporte/*.lof
-reporte/*.log
-reporte/*.lot
-reporte/*.out
-reporte/*.run.xml
-reporte/*.synctex.gz
-reporte/*.toc
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
 
+# PDF que se genera al compilar los reportes; se conservan los enunciados T1.pdf y T2.pdf
+reporte_tarea_*.pdf

@@ -1,35 +1,28 @@
-# Tarea 1 - Codificación de programas básicos
+# Análisis y Diseño de Algoritmos
 
-Repositorio correspondiente a la Tarea 1 de la asignatura Análisis y Diseño de Algoritmos.
+Repositorio de actividades y tareas de la asignatura Análisis y Diseño de
+Algoritmos de la Maestría en Ciencias e Ingeniería de Datos.
 
-## Contenido
+## Organización
 
-- T1.pdf: enunciado original de la tarea.
-- algoritmos/: implementación de los algoritmos en Rust.
-- reporte/: código fuente en LaTeX, figuras y capturas del reporte.
+- tarea_1/: programas básicos, reporte y enunciado de la primera tarea.
+- tarea_2/: INSERTION-SORT, suma binaria, análisis de invariante de ciclo,
+  reporte y enunciado de la segunda tarea.
 
-## Problemas resueltos
+Cada carpeta de tarea contiene:
 
-1. Invertir y transponer una matriz.
-2. Ordenamiento burbuja.
-3. Conversión de números romanos a enteros.
-4. Máximo común divisor.
-5. Comprobación de número primo.
-6. Comprobación de palíndromo.
-7. Obtención del elemento mayor de una matriz.
+- El enunciado original en PDF.
+- algoritmos/: implementación en Rust.
+- reporte/: fuente LaTeX, figuras, capturas y evidencia solicitada.
 
-## Ejecución del programa
+## Uso
 
-Desde la carpeta algoritmos/:
+Para ejecutar los programas de una tarea, entrar a su carpeta algoritmos/ y usar:
 
     cargo run
 
-El programa presenta un menú para seleccionar y probar cada algoritmo.
+Para compilar un reporte, entrar a su carpeta reporte/ y usar:
 
-## Compilación del reporte
+    xelatex nombre_del_reporte.tex
 
-Desde la carpeta reporte/:
-
-    xelatex reporte_tarea_1.tex
-
-Se utiliza XeLaTeX porque el reporte emplea las fuentes Times New Roman y Menlo.
+Los reportes usan XeLaTeX para trabajar con las fuentes Times New Roman y Menlo.
